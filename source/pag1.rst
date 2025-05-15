@@ -3,18 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-高等数学
+高等数学2
 =========================
 
 
-.. toctree::
-   :maxdepth: 1
-
-   pag1
-
-   pag2
-
-
+====================
+Placeholder Page One
+====================
 
 This page is here, to provide some content for the site structure.
 
