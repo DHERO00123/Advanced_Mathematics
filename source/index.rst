@@ -3,14 +3,32 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-sphinx math documentation
+高等数学
 =========================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
 
+.. note:: This is a note admonition.
+ This is the second line of the first paragraph.
 
+ - The note contains all indented body elements
+   following.
+ - It includes this bullet list.
+
+.. hint:: This is a hint admonition.
+
+.. important:: This is a important admonition.
+
+.. tip:: This is a tip admonition.
+
+.. warning:: This is a warning admonition.
+
+.. caution:: This is a caution admonition.
+
+.. attention:: This is a attention admonition.
+
+.. error:: This is a error admonition.
+
+.. danger:: This is a danger admonition.
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
