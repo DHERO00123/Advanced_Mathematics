@@ -16,7 +16,9 @@ author = 'veit'
 extensions = []
 
 templates_path = ['_templates']
-exclude_patterns = []
+exclude_patterns = [
+    "furo"
+]
 
 language = 'zh_CN'
 
