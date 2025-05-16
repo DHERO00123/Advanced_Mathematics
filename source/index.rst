@@ -3,46 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-高等数学 ad
+高等数学学习笔记
 =========================
 
-
-.. toctree::
-   :maxdepth: 1
-
-   pag1
-
-   pag2
-
-
-
-This page is here, to provide some content for the site structure.
-
-
-
-.. note:: This is a note admonition.
- This is the second line of the first paragraph.
-
- - The note contains all indented body elements
-   following.
- - It includes this bullet list.
-
-.. hint:: This is a hint admonition.
-
-.. important:: This is a important admonition.
-
-.. tip:: This is a tip admonition.
-
-.. warning:: This is a warning admonition.
-
-.. caution:: This is a caution admonition.
-
-.. attention:: This is a attention admonition.
-
-.. error:: This is a error admonition.
-
-.. danger:: This is a danger admonition.
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 章节目录
 
+   chapter1
+   chapter2
+   chapter3
