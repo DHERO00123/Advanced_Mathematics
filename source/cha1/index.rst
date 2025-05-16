@@ -3,13 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-高等数学学习笔记
+第二章 导数与微分
 =========================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 章节目录
 
-   cha0/index
-   cha1/index
-   cha2/index
+   chapter0
