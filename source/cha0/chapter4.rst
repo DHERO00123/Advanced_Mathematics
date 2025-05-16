@@ -13,7 +13,7 @@
 
 **定理3**
 
-    如果 :math:`\lim{f(x)}=A，\lim{g(x)}=B` ,那么
+    如果 :math:`\lim{f(x)}=A,\lim{g(x)}=B` ,那么
 
     (1) :math:`\lim[f(x)\pm g(x)]=\lim{f(x)} \pm \lim{g(x)}=A\pm B` 
     
