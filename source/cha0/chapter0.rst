@@ -153,33 +153,33 @@
 
    * - f(x) = ax + b
      - 无
-     - ℝ
+     - :math:`\mathbb{R}` 
 
-   * - f(x) = ax² + bx + c
+   * - :math:`f(x)=ax^2+bx+c`
      - 无
-     - ℝ
+     - :math:`\mathbb{R}`
 
-   * - f(x) = √x
+   * - :math:`f(x)=\sqrt {x}`
      - 被开方数 x ≥ 0
      - [0, +∞)
 
-   * - f(x) = √(x - a)
+   * - :math:`f(x)=\sqrt {x-a}`
      - x ≥ a
      - [a, +∞)
 
-   * - f(x) = √[n]{x}（n 为奇数）
+   * -  :math:`f(x)=\sqrt [n] {x}` (n 为奇数)
      - 奇次根可开负数
-     - ℝ
+     - :math:`\mathbb{R}`
 
    * - f(x) = 1 / x
      - x ≠ 0
-     - ℝ \\ {0}
+     - :math:`\mathbb{R}` \\ {0}
 
    * - f(x) = 1 / (x - a)
      - x ≠ a
-     - ℝ \\ {a}
+     - :math:`\mathbb{R}` \\ {a}
 
-   * - f(x) = 1 / √x
+   * - :math:`f(x)= \frac{1}{\sqrt {x}}`
      - x > 0
      - (0, +∞)
 
@@ -191,17 +191,17 @@
      - x > a
      - (a, +∞)
 
-   * - f(x) = log_b x (b > 0 且 b ≠ 1)
+   * - f(x) = :math:`log_b{x}`  (b > 0 且 b ≠ 1)
      - x > 0
      - (0, +∞)
 
    * - f(x) = sin x, cos x
      - 三角函数对所有实数有定义
-     - ℝ
+     - :math:`\mathbb{R}`
 
    * - f(x) = tan x
      - x ≠ π/2 + kπ
-     - ℝ \\ {π/2 + kπ | k ∈ ℤ}
+     - :math:`\mathbb{R}` \\ {π/2 + kπ | k ∈ :math:`\mathbb{Z}` }
 
    * - f(x) = arcsin x
      - -1 ≤ x ≤ 1
@@ -213,12 +213,12 @@
 
    * - f(x) = arctan x
      - 无
-     - ℝ
+     - :math:`\mathbb{R}`
 
-   * - f(x) = e^x
+   * - f(x) = :math:`e^x`  
      - 无
-     - ℝ
+     - :math:`\mathbb{R}`
 
-   * - f(x) = a^x（a > 0）
+   * - f(x) = :math:`a^x` (a > 0)
      - 无
-     - ℝ
+     - :math:`\mathbb{R}`
