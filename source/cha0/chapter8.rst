@@ -27,90 +27,54 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
 
-.. important::
+.. important:: 定理1
 
-  **定理1** 设函数f,g在 :math:`x_0` 处连续, 则
+   设函数f,g在 :math:`x_0` 处连续, 则
         :math:`f\pm g, fg, \frac{f}{g} (g(x_0)\neq0)` 都在 :math:`x_0` 处连续   
 
-
-
-
-
-定义(连续)
-------------------
-    若 :math:`\lim_{\Delta \rightarrow 0}\Delta y=0` 或 :math:`\lim_{x \rightarrow x_0}f(x)=f(x_0)`
+.. admonition:: 例1
     
-    这点的极限存在,并且等于这点的函数值,就称函数在这点是连续的
+    证明: :math:`\tan{x}, \cot{x}` 在其定义域内是连续的
 
-**左连续**
+    由于 :math:`\sin{x} 和 \cos{x}`  是连续的, :math:`\tan{x}=\frac{\sin{x}}{\cos{x}}, \cot{x} = \frac{1}{\tan{x}} 也等价于 \cot{x} = \frac{\cos{x}}{\sin{x}}`   
 
-    :math:`\lim_{x \rightarrow x_0^-}f(x)=f(x_0)`
+    所以根据定理1可以知道 :math:`\tan{x}和 \cot{x}` 在定义域内是连续的 
 
-**右连续**
+反函数与符合函数的连续性
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    :math:`\lim_{x \rightarrow x_0^+}f(x)=f(x_0)`
+.. important:: 定理二 (反函数的连续性)
 
-.. attention::
-    
-    连续 :math:`\Leftrightarrow` 左连续且右连续
+   设 :math:`f:|a,b|\rightarrow R` 是严格单调递增(减)的连续函数.则其反函数在[f(a),f(b)],([f(b),f(a)]),上也是连续的 
 
-f(x)在区间上连续
-    对于开区间(a,b)要求在这个区间内所有的点都连续
+.. image:: ../images/lx1.png
+    :alt: 函数与反函数连续
+    :width: 600px
+    :align: center
 
-    对于开闭区间[a,b]要求在这个区间内,内部的点都连续,而对于左端点要求右连续,右端点要求左连续
+上图中这个反函数 :math:`x=f^{-1}(y)` 应该是[f(a),f(b)]这个取值范围上的连续函数,从几何上直接看这是一个很明显的结论,这个就是函数与反函数的连续性
 
-和差化积公式
+.. admonition:: 例2
 
-    :math:`\sin{A} + \sin{B} = 2\sin({\frac{A+B}{2})\cos({\frac{A-B}{2}}})`
+    证明: :math:`\arcsin{x}, \arccos{x}, \arctan{x} \arccot{x}` 在其定义域内是连续的
 
-    :math:`\sin{A}-\sin{B}=2\cos({\frac{A+B}{2}})\sin({\frac{A-B}{2}})`  
+    由上述理论可知, 这个反三角函数都是连续的 
 
-.. admonition:: 例子
+.. important:: 定理三 (复合函数的连续性)
 
-    试证: :math:`\sin{x}` 在区间 ( :math:`-\infty, +\infty` )上连续  
+    设y-f(g(x))是由y=f(u)与 u=g(x) 复合而成,若g(x)在 :math:`x_0` 处连续,f(u)在 :math:`u_0` 连续, :math:`u_0=g(x_0)` ,则f(f(x)) 在 :math:`x_0` 处连续  
 
-    根据上述定理,只要证明在这个区间的每一点都连续
+    也就是 :math:`\lim_{x\rightarrow x_0}{f(g(x))}=f(g(x0))` 
 
-    [证] :math:`\lim_{x \rightarrow x_0}{\sin{x}}=\sin{x_0}, \forall x_0 \in R` 
+初等函数的连续性
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    :math:`\lim_{x\rightarrow 0}{\frac{\sin{x}}{x}}=1`   
+.. important:: 定理四
 
-    设 :math:`x \rightarrow x_0` ,我们令 :math:`h=x-x_0` ,即 :math:`x=x_0+h` ,当 :math:`x\rightarrow x_0` 时 :math:`h \rightarrow 0`    
+    基本初等函数(反对幂三指)在其 **定义域** 内都是连续的
 
-    :math:`\lim_{x\rightarrow x_0}{\sin{x}}=\lim_{x\rightarrow 0}sin{(x_0+h)}` ,用和角公式展开
+.. important:: 定理五
 
-    :math:`\sin{(x_0+h)}=\sin{x_0}\cos{h}+\cos{x_0}\sin{h}` ,所以有
+    初等函数在其 **定义区间** 内是连续的
 
-    :math:`\lim_{h\rightarrow 0}{\sin{(x_0+h)}}=\lim_{h\rightarrow 0}(\sin{x_0}\cos{h}+\cos{x_0}\sin{h})` 
-
-    :math:`\lim_{h\rightarrow 0}\cos{h}=1`
-
-    :math:`\lim_{h\rightarrow 0}\sin{h}=0` , 代入
-
-    :math:`\lim_{x\rightarrow x_0}{\sin{x}}=\sin{x_0}\cdot 1+\cos{x}\cdot 0`
-
-    :math:`\lim_{x\rightarrow x_0}{\sin{x}}=\sin{x_0}` ,得证
-
-
-函数的间断点
------------------------------
-
-f(x)在 :math:`x_0` 处连续
-    1) f(x) 在 :math:`x_0` 有定义 
-    2) :math:`\lim_{x\rightarrow x_0}{f(x_0)}` 存在 
-    3) :math:`\lim_{x\rightarrow x_0}{f(x_0)}=f(x_0)`
-
-**函数在一点上连续有以上三个条件,如果这三个条件中有一点不成立则是间断点**
-    1) f(x) 在 :math:`x_0` 无有定义 
-    2) :math:`\lim_{x\rightarrow x_0}{f(x_0)}` 不存在 
-    3) :math:`\lim_{x\rightarrow x_0}{f(x_0)}\neq f(x_0)`
- 
-间断点分类
-^^^^^^^^^^^^^^
-    第一类间断点:(左 右极限都存在)
-        1) 可去间断点 :math:`f(x_0-0)=f(x_0+0)` 左右极限相等但是这一点没有定义
-        2) 跳跃间断点 :math:`f(x_0-0) \neq f(x_0+0)` 左右极限不相等
-
-    第二类间断点(左 右极限至少有一个不存在)
-        1) 无穷间断点
-        2) 震荡间断点
+    函数的定义域是唯一的,定义区间不是唯一的,定义区间，包含在定义域内部的区间都叫定义区间

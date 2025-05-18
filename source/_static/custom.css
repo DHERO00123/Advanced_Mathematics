@@ -1,9 +1,7 @@
 div.admonition.admonition {
     font-size: 1.1em;
-    border-left: 4px solid #7c73f2;
-    padding: 10px;
-    
 }
+
 
 /* .admonition.admonition > .admonition-title {
     background-color: #5b4fff;
