@@ -92,6 +92,45 @@
    如果数列 :math:`\{x_n\}` 收敛于a,那么它的任一子数列也收敛,且极限也是a. 
 
 
+
+计算例子(使用数列的定义证明)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. math::
+      :class: align-left
+
+      
+      \lim_{n \rightarrow \infty}{\frac{3n+1}{2n+1}}=\frac{3}{2}
+
+      \\
+      根据定义写出 |x_n-a| 的形式
+
+      \\
+      |x_n-a|=|\frac{3n+1}{2n+1}-\frac{3}{2}|=|\frac{-1}{2(2n+1)}|=\frac{1}{2(2n+1)}
+
+      \\
+      根据定义，\forall \varepsilon > 0,为了使|x_n-a| < \varepsilon 只要
+
+
+      \\
+      算出n的不等式 \frac{1}{2(2n+1)} < \varepsilon \Rightarrow 2(2n+1) > \frac{1}{\varepsilon} \Rightarrow 2n+1 > \frac{1}{2\varepsilon} \Rightarrow n > \frac{1}{2\varepsilon} -\frac{1}{2}
+
+      \\ 
+      令N = n  \quad N=[\frac{1}{2\varepsilon}-\frac{1}{2}]
+
+      \\
+      当 n > N 时，就有
+
+      \\ 
+      |\frac{3n+1}{2n+1}-\frac{3}{2}| < \varepsilon
+
+      \\
+      根据数列极限定义,已经证明
+
+      \\ 
+      \lim_{n\rightarrow \infty}{\frac{3n+1}{2n+1}}=\frac{3}{2}
+
+
 .. _eps-note:
 
 关于绝对值的知识
