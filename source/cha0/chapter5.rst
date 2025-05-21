@@ -31,12 +31,17 @@
 
 
 
-两个重要极限
+两个重要极限(真重要)
 --------------------------
 
 (1) :math:`\lim_{x\rightarrow 0}{\frac{\sin x}{x}=1},\quad \lim_{\Delta \rightarrow 0}{\frac{\sin \Delta}{\Delta}=1},(\Delta \neq 0)`  
 
-(2) :math:`\lim_{x\rightarrow \infty}{(1+ {\frac{1}{x})}^x}=e\\ \lim_{x\rightarrow 0}{(1+x)^{\frac{1}{x}}}=e \quad \lim_{\Delta \rightarrow 0}{(1+ \Delta)^{\frac{1}{\Delta}}=e},(\Delta \neq 0)` 
+(2) :math:`\lim_{x\rightarrow \infty}{(1+ {\frac{1}{x})}^x}=e \quad  \lim_{x\rightarrow 0}{(1+x)^{\frac{1}{x}}}=e \quad \lim_{\Delta \rightarrow 0}{(1+ \Delta)^{\frac{1}{\Delta}}=e},(\Delta \neq 0)` 
+
+
+极限公式
+
+    :math:`\lim_{x\rightarrow 0}{\frac{1-\cos{x}}{x^2}}=\frac{1}{2}` 
 
 
 
@@ -199,7 +204,7 @@
     倍角公式记忆方法
 
     :math:`\sin(2x) = 2\sin x \cos x`
-    
+
     👉 想成是 sin 和 cos 的“合作”
 
     :math:`\cos(2x)` 有三种形式：
