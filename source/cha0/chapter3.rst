@@ -7,7 +7,9 @@
 ------------------------------
 
 定义
-    如果一个函数f(x)当 :math:`x\rightarrow x_0`  (或 :math:`x\rightarrow \infty` )时的极限为零,那么称函数f(x)为 :math:`x\rightarrow x_0`  (或 :math:`x\rightarrow \infty` )时的无穷小量,例  因为 :math:`\lim_{x\rightarrow 1}{(x-1)}=0` ,所以函数x-1为当 :math:`x\rightarrow 1`  时的无穷小
+    如果函数f(x)当 :math:`x\rightarrow x_0`  (或 :math:`x\rightarrow \infty` )时的极限为零,那么称函数f(x)为 :math:`x\rightarrow x_0`  (或 :math:`x\rightarrow \infty` )时的无穷小
+    
+    例  因为 :math:`\lim_{x\rightarrow 1}{(x-1)}=0` ,所以函数x-1为当 :math:`x\rightarrow 1`  时的无穷小
 
 
 .. note::
