@@ -137,3 +137,69 @@
     :math:`f(x)=f(x_0)+f'(x_0)(x-x_0)+\frac{f''(x_0)}{2!}(x-x_0)^2+\frac{f'''(x_0)}{3!}(x-x_0)^3+...` 
 
     所以就得到了这个书本上的泰勒公式
+
+
+
+    常用函数的麦克劳林展开公式
+
+以下是常用初等函数在 $x = 0$ 处的泰勒展开（即麦克劳林公式），适用于极限计算、近似计算、微积分证明等：
+
+常用函数的麦克劳林展开
+-----------------------------
+
+.. list-table:: 常用函数的麦克劳林展开 :math:`(x \rightarrow 0)`
+   :widths: 25 60 25
+   :header-rows: 1
+
+   * - 函数 f(x)
+     - 麦克劳林展开式
+     - 收敛区间
+   * - :math:`e^x`  
+     - :math:`1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots+\frac{x^n}{n!}+o(x^n)`  
+     - :math:`(-\infty, +\infty)`  
+   * - :math:`\ln(1+x)`  
+     - :math:`x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4}+o(x^4)`  
+     - :math:`(-1, 1]`  
+   * - :math:`\frac{1}{1 - x}`  
+     - :math:`1 + x + x^2 + x^3 + \cdots`  
+     - :math:`|x| < 1`  
+   * - :math:`\frac{1}{1 + x}`  
+     - :math:`1 - x + x^2 - x^3 + \cdots`  
+     - :math:`|x| < 1`  
+   * - :math:`\sin x`  
+     - :math:`x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots`  
+     - :math:`(-\infty, +\infty)`
+   * - :math:`\cos x`  
+     - :math:`1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots`  
+     - :math:`(-\infty, +\infty)`  
+   * - :math:`\tan x`  
+     - :math:`x + \frac{x^3}{3} + \frac{2x^5}{15} + \cdots`  
+     - :math:`\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)`
+   * - :math:`\arcsin x`  
+     - :math:`x + \frac{x^3}{6} + \frac{3x^5}{40} + \cdots`  
+     - :math:`|x| \leq 1`  
+   * - :math:`\arctan x`  
+     - :math:`x - \frac{x^3}{3} + \frac{x^5}{5} - \cdots`  
+     - :math:`|x| \leq 1`  
+   * - :math:`(1 + x)^a`  
+     - :math:`1 + ax + \frac{a(a-1)}{2!}x^2 + \frac{a(a-1)(a-2)}{3!}x^3 + \cdots`  
+     - :math:`|x| < 1`
+   * - :math:`ln(x+\sqrt{x^2+1})`  
+     - :math:`x- \frac{1}{6}x^3 +\frac{3}{40}x^5 - \frac{5}{112}x^7 + \cdots`  
+     - :math:`|x| \leq 1`
+
+记忆技巧
+
+$e^x$：全部为正，分母是阶乘
+
+$\sin x$：奇数次幂、正负交替
+
+$\cos x$：偶数次幂、正负交替
+
+$\ln(1+x)$：交替项，分母是自然数
+
+$\arctan x$：奇次幂，正负交替
+
+$(1+x)^a$：二项展开的一般形式
+
+使用方法：取前几项作为近似值；高阶项可视为 $o(x^n)$ 无穷小，常用于极限计算。
