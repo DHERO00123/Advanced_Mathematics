@@ -16,10 +16,7 @@
 .. note::
     无论是函数还是极限只要以0为极限,就称是这个极限过程的无穷小量
 
-
-1. **
-
-     在自变量的同一变化过程 :math:`x\rightarrow x_0`   (或 :math:`x\rightarrow \infty`  )中,函数f(x)具有极限A的充分必要条件是 :math:`f(x)=A+\alpha`  其中 :math:`\alpha`   是无穷小
+    在自变量的同一变化过程 :math:`x\rightarrow x_0`   (或 :math:`x\rightarrow \infty`  )中,函数f(x)具有极限A的充分必要条件是 :math:`f(x)=A+\alpha`  其中 :math:`\alpha`   是无穷小
 
 
 无穷大
