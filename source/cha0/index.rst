@@ -10,6 +10,7 @@
    :maxdepth: 1
    :caption: 章节目录
 
+   basis_konwledge
    chapter0
    chapter1
    chapter2
@@ -20,3 +21,4 @@
    chapter7
    chapter8
    chapter9
+   chapter10
